@@ -1,0 +1,42 @@
+
+[<div class="w3-container">
+<h4 class="w3-margin-top">HTML and CSS</h4>
+</div>, <div class="w3-container">
+<h4 class="w3-margin-top">JavaScript</h4>
+</div>, <div class="w3-container">
+<h4 class="w3-margin-top">Server Side</h4>
+</div>, <div class="w3-container">
+<h4 class="w3-margin-top">Programming</h4>
+</div>, <div class="w3-container">
+<h4 class="w3-margin-top">Web Building</h4>
+</div>, <div class="w3-container">
+<h4 class="w3-margin-top">XML Tutorials</h4>
+</div>, <div class="w3-container">
+<h4 class="w3-margin-top">References</h4>
+</div>, <div class="w3-container">
+<h4 class="w3-margin-top">Exercises</h4>
+</div>, <div class="w3-container w3-padding-32">
+<a class="w3-button w3-block w3-large w3-wide" href="javascript:void(0);" onclick="open_xs_menu('tutorials');">TUTORIALS <i class="fa fa-caret-down"></i></a>
+<div class="w3-white w3-show" id="sectionxs_tutorials"></div>
+<a class="w3-button w3-block w3-large w3-wide" href="javascript:void(0);" onclick="open_xs_menu('references')">REFERENCES <i class="fa fa-caret-down"></i></a>
+<div class="w3-white w3-show" id="sectionxs_references"></div>
+<a class="w3-button w3-block w3-large w3-wide" href="javascript:void(0);" onclick="open_xs_menu('examples')">EXAMPLES <i class="fa fa-caret-down"></i></a>
+<div class="w3-white w3-show" id="sectionxs_examples"></div>
+<a class="w3-button w3-block w3-large w3-wide" href="javascript:void(0);" onclick="open_xs_menu('exercises')">EXERCISES <i class="fa fa-caret-down"></i></a>
+<div class="w3-white w3-show" id="sectionxs_exercises"></div>
+</div>, <div class="w3-container w3-padding-32">
+<a class="w3-button w3-light-grey w3-hide-small w3-hide-medium w3-left" href="/cert/default.asp" style="font-size:16px;margin-top:-9px">WEB CERTIFICATES</a>
+<a class="w3-button w3-light-grey w3-hide-small w3-hide-medium w3-left" href="/quiztest/default.asp" style="font-size:16px;margin-top:-9px;margin-left:12px">QUIZZES</a>
+<a class="w3-button w3-light-grey w3-hide-small w3-hide-medium w3-left" href="/html/html_exercises.asp" style="font-size:16px;margin-top:-9px;margin-left:12px">EXERCISES</a>
+<a class="w3-button w3-light-grey w3-hide-large" href="/cert/default.asp" style="font-size:16px;margin-bottom:16px">CERTIFICATES</a>
+<a class="w3-button w3-light-grey w3-hide-large" href="/quiztest/default.asp" style="font-size:16px;margin-bottom:16px;">QUIZZES</a>
+<a class="w3-button w3-light-grey w3-hide-large" href="/html/html_exercises.asp" style="font-size:16px;margin-bottom:16px;">EXERCISES</a>
+<nav class="w3-right w3-hide-medium w3-hide-small w3-wide">
+<a class="w3-hover-text-green" href="/forum/default.asp" style="text-decoration:none" target="_blank">FORUM</a> |
+    <a class="w3-hover-text-green" href="/about/default.asp" style="text-decoration:none" target="_top">ABOUT</a>
+</nav>
+<nav class="w3-center w3-hide-large w3-margin-top w3-wide">
+<a class="w3-hover-text-green" href="/forum/default.asp" style="text-decoration:none" target="_blank">FORUM</a> |
+    <a class="w3-hover-text-green" href="/about/default.asp" style="text-decoration:none" target="_top">ABOUT</a>
+</nav>
+</div>]
