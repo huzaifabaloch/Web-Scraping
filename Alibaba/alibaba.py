@@ -34,6 +34,7 @@ class Alibaba():
         product_list_by_category = {}
         products = []
         header_key = 0
+        total_links = 0
 
         page = self.check_response_and_load_page()
         soup = BeautifulSoup(page, 'html.parser')
@@ -67,6 +68,11 @@ class Alibaba():
            
             header_key += 1
             products = []
+
+            
+        for product in product_list_by_category.values():
+            total_links += len(product)
+        print(total_links)
 
         with open('alibaba_product_links_by_category.csv', 'w', newline='') as file_open:
             data_writer = csv.writer(file_open)
